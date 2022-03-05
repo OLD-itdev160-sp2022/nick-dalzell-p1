@@ -8,6 +8,7 @@
 </head>
 <link rel="stylesheet" type="text/css" href="css/styles.css">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+
 <body>
     <header>
         <h1>My Elden Ring Review</h1>
@@ -27,28 +28,28 @@
             Elden Ring is sure to keep fans satiated for some time.
         </p>
         <p>Price: $<span id = "price"></span></p>
-        <p >Ultimate Edition Price: $<span id = "ultimateEditionPrice"></span></p>
+        <p>Ultimate Edition Price: $<span id = "ultimateEditionPrice"></span></p>
         <p><a href = "https://en.bandainamcoent.eu/elden-ring/elden-ring">Elden Ring website</a></p>
-        <table id = "pros-and-cons">
+        <table>
             <tr>
                 <th>Pros</th>
                 <th>Cons</th>
             </tr>
             <tc>
                 <td>
-                    <ul>
+                    <ul class = "pros">
                         <li>Looks amazing</li>
-                        <li>Is lots of fun</li>
+                        <li>Is lots of fun & challenging</li>
                         <li>Possibly greatest video game of all time</li>
                     </ul>
                 </td>
             </tc>
             <tc>
                 <td>
-                    <ul>
-                        <li>Really hard</li>
+                    <ul class = "cons">
+                        <li>Can be quite difficult</li>
                         <li>Not enough time to play</li>
-                        <li>Playing is taking up all my time</li>
+                        <li>Yet somehow playing is taking up all my time</li>
                     </ul>
                 </td>
             </tc>
@@ -59,10 +60,10 @@
 
     <footer>
         <p>This is by no means an officially recognized review. I just like to play video games.
-            All rights are owned by BandaiNamco&copy;.
+            All rights are owned by BandaiNamco&copy; <span id = "year"></span>
         </p>
     </footer>
     <script src="js/scripts.js"></script>
-    
+
 </body>
 </html>

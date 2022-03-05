@@ -7,10 +7,15 @@ var lineIntoEl = document.getElementById('lineInto');
 lineIntoEl.textContent = lineInto;
 
 var price = 60;
-var extraForUltimateEdition = .25
-var ultimateEditionPrice = price + (price * extraForUltimateEdition);
+var extraForUltimateEdition = 20
+var ultimateEditionPrice = price + extraForUltimateEdition;
 var priceEl = document.getElementById('price');
 var ultimateEditionPriceEl = document.getElementById('ultimateEditionPrice');
 
 priceEl.textContent = price.toFixed(2);
 ultimateEditionPriceEl.textContent = ultimateEditionPrice.toFixed(2);
+
+var year = '2022';
+var yearEl = document.getElementById('year');
+
+yearEl.textContent = year;

@@ -1,26 +1,26 @@
 body {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: rgb(170, 165, 165);
     margin-left: 1.5em;
     margin-right: 1.5em;
+    background-color:rgb(126, 120, 120);
 }
 
 
 header h1 {
     width: 100%;
-    align-content: center;
-    background-color: rgb(126, 120, 120);
-    text-align: center;
+    background-color: rgb(126, 111, 63);
+    text-align: center;    
     color: rgb(87, 7, 7);
     padding-top: 1em;
     padding-bottom: 1em;    
     border: 2px solid black;
+    border-radius: 1em;
 }
 
 main {
     border: 2px solid black;
-    padding-left: .75em;
-    padding-right: .75em;
+    border-radius: .5em;
+    background-color:rgb(126, 111, 63)
 }
 
 img {
@@ -38,21 +38,36 @@ figcaption span {
     font-style: italic;
 }
 
-main table#pros-and-cons  {
-    border: 2px solid black;
+main p {
+    margin-left: 1em;
 }
 
-main table#pros-and-cons tr th {
+main table  {
+    border: 2px solid black;
+    margin-left: 1em;
+}
+
+main table tr th {
     border-bottom: 2px solid black;
+}
+
+ul.pros {
+    list-style: circle;
+}
+
+ul.cons {
+    list-style: square;
 }
 
 h3  {
     text-align: center;
     color: #333;
+    font-size: 150%;
 }
 
 p#bottom-paragraph {
     text-align: center;
+    font-size: 175%;
 }
 
 footer {
